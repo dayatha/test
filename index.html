@@ -1,308 +1,223 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>synQrona | Generative AI enterprise automation platform</title>
-    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>synQrona | Secure Enterprise Automation with Generative AI</title>
+    <meta name="description" content="synQrona - Empowering enterprises with secure, responsible automation through generative AI agent technology." />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg"/>
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-beta2.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
-    <link rel="stylesheet" href="assets/css/tiny-slider.css"/>
-    <link rel="stylesheet" href="assets/css/animate.css"/>
-    <link rel="stylesheet" href="assets/css/main.css"/>
-  </head>
-  <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
-
-    <!-- ========================= preloader start ========================= -->
-    <div class="preloader">
-      <div class="loader">
-        <div class="spinner">
-          <div class="spinner-container">
-            <div class="spinner-rotator">
-              <div class="spinner-left">
-                <div class="spinner-circle"></div>
-              </div>
-              <div class="spinner-right">
-                <div class="spinner-circle"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-		<!-- preloader end -->
-		
-
-    <!-- ========================= header start ========================= -->
-    <header class="header">
-      <div class="navbar-area">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #6200EA;
+            --secondary-color: #03DAC6;
+            --text-color: #333333;
+            --bg-color: #FFFFFF;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+        .navbar {
+            background-color: var(--bg-color);
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+        }
+        .navbar-brand {
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .nav-link {
+            color: var(--text-color);
+            font-weight: 500;
+        }
+        .nav-link:hover {
+            color: var(--primary-color);
+        }
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        .btn-primary:hover {
+            background-color: #5000D0;
+            border-color: #5000D0;
+        }
+        .hero-section {
+            background: linear-gradient(135deg, #6200EA 0%, #03DAC6 100%);
+            color: white;
+            padding: 100px 0;
+        }
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-12">
-              <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html">
-                  <!--<img src="assets/images/logo/logo.svg" alt="Logo" />-->
-				  <h1 style="color:MediumVioletRed;">synQrona</h1><p></p>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-								</button>
-								
-                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-									<div class="ms-auto">
-										<ul id="nav" class="navbar-nav ms-auto">
-											<li class="nav-item">
-												<a class="page-scroll active" href="#home">Home</a>
-											</li>
-											<!--<li class="nav-item">
-												<a class="page-scroll" href="#about">About</a>
-											</li>-->
-											<li class="nav-item">
-												<a class="page-scroll" href="#features">Product</a>
-											</li>
-											<li class="nav-item">
-												<a class="page-scroll" href="#contact">Contact Us</a>
-											</li>
-											<!--<li class="nav-item">
-												<a class="" href="#0">Pricing</a>
-											</li>
-											<li class="nav-item">
-												<a class="" href="#0">Team</a>
-											</li>-->
-										</ul>
-									</div>
-                  
-                </div>
-								<!-- navbar collapse -->
-								<!--<div class="header-btn">
-									<a href="#0" class="main-btn btn-hover">Download</a>
-								</div>-->
-              </nav>
-              <!-- navbar -->
+            <a class="navbar-brand" href="#">synQrona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#security">Security</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <!-- row -->
         </div>
-        <!-- container -->
-      </div>
-      <!-- navbar area -->
-    </header>
-    <!-- ========================= header end ========================= -->
+    </nav>
 
-    <!-- ========================= hero-section start ========================= -->
     <section id="home" class="hero-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-6 col-lg-6 col-md-10">
-            <div class="hero-content">
-							<h2>synQrona Gen AI platform automates your disparate business processes across enterprise applications</h2>
-							<p>No code to write, no infrastructure to setup, get started with synQrona to automate business processes in minutes!</p>
-							
-							<a href="#0" class="main-btn btn-hover">Request Demo</a>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Revolutionize Your Enterprise with AI-Powered Automation</h1>
+                    <p class="lead mb-4">synQrona harnesses the power of generative AI agents to automate your business processes securely and responsibly, driving efficiency and innovation across your enterprise.</p>
+                    <a href="#contact" class="btn btn-light btn-lg">Request Demo</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/api/placeholder/600/400" alt="AI Automation" class="img-fluid rounded shadow-lg">
+                </div>
             </div>
-					</div>
-					<div class="col-xxl-6 col-xl-6 col-lg-6">
-						<div class="hero-image text-center text-lg-end">
-							<img src="assets/images/hero/hero-image.svg" alt="">
-						</div>
-					</div>
         </div>
-			</div>
     </section>
-		<!-- ========================= hero-section end ========================= -->
 
-		<!-- ========================= about-section start ========================= -->
-		<!--<section id="about" class="about-section">
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 order-last order-lg-first">
-						<div class="about-image">
-							<img src="assets/images/about/about-image.svg" alt="">
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="about-content-wrapper">
-							<div class="section-title">
-								<h2 class="mb-20">Perfect Solution Thriving Online Business</h2>
-								<p class="mb-30">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem.Lorem ipsum dolor sit amet.</p>
-								<a href="#0" class="main-btn btn-hover border-btn">Discover More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ========================= about-section end ========================= -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Empowering Features</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-robot feature-icon mb-3"></i>
+                            <h5 class="card-title">AI-Powered Automation</h5>
+                            <p class="card-text">Leverage cutting-edge generative AI to automate complex business processes with ease.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-shield-alt feature-icon mb-3"></i>
+                            <h5 class="card-title">Enterprise-Grade Security</h5>
+                            <p class="card-text">Ensure data privacy and protection with our robust security measures and compliance standards.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-code-branch feature-icon mb-3"></i>
+                            <h5 class="card-title">Seamless Integration</h5>
+                            <p class="card-text">Easily connect synQrona with your existing enterprise applications and workflows.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-line feature-icon mb-3"></i>
+                            <h5 class="card-title">Scalable Performance</h5>
+                            <p class="card-text">Grow your automation capabilities alongside your business with our scalable SaaS solution.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- ========================= feature-section start ========================= -->
-		<section id="features" class="feature-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-5 col-md-10">
-						<div class="section-title mb-60">
-							<h2 class="mb-20">Build enterprise automation apps with generative ai to achieve business outcomes faster</h2>
-							<p>synQrona platform builds generative ai apps that live alongside your enterprise applications while automating disparate business processes</p>
-						</div>
-					</div>
+    <section id="security" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Secure and Responsible AI Automation</h2>
+                    <p class="mb-4">At synQrona, we prioritize the security and responsible use of AI technology. Our platform is designed with enterprise-grade security measures to protect your sensitive data and ensure compliance with industry standards.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle text-success me-2"></i> End-to-end encryption</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Regular security audits</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Compliance with GDPR, CCPA, and other regulations</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Ethical AI principles and governance</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/api/placeholder/500/300" alt="Security" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<div class="col-lg-7">
-						<div class="row">
-							<div class="col-lg-6 col-md-6">
-								<div class="single-feature">
-									<div class="feature-icon">
-										<i class="lni lni-display"></i>
-									</div>
-									<div class="feature-content">
-										<h4>No Code Scalable SaaS</h4>
-										<p>You don't have to manage infrastructure or write code. Platform scales as your business grows.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6">
-								<div class="single-feature">
-									<div class="feature-icon">
-										<i class="lni lni-compass"></i>
-									</div>
-									<div class="feature-content">
-										<h4>Secure from start</h4>
-										<p>data security and privacy is weaved into every aspect of the platform.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6">
-								<div class="single-feature">
-									<div class="feature-icon">
-										<i class="lni lni-grid-alt"></i>
-									</div>
-									<div class="feature-content">
-										<h4>Agile</h4>
-										<p>Tools to build automated processes quickly and adapt to changing business and economy.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6">
-								<div class="single-feature">
-									<div class="feature-icon">
-										<i class="lni lni-layers"></i>
-									</div>
-									<div class="feature-content">
-										<h4>Innovate</h4>
-										<p>We bring in some of the most cutting edge innovations to the platform that you can start leveraging from start.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ========================= feature-section end ========================= -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Get Started with synQrona</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="How can we help you?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Request Demo</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- ========================= cta-section start ========================= -->
-		<!--<section id="cta" class="cta-section pt-130 pb-100">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6 col-md-10">
-						<div class="cta-content-wrapper">
-							<div class="section-title">
-								<h2 class="mb-20">Quick & Easy to <br class="d-none d-lg-block"> Use Bootstrap Template</h2>
-								<p class="mb-30">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergre.</p>
-								<a href="#0" class="main-btn btn-hover border-btn">Try it Free</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="cta-image text-lg-end">
-							<img src="assets/images/cta/cta-image.svg" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ========================= cta-section end ========================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3 class="text-primary">synQrona</h3>
+                    <p>Empowering enterprises with secure, responsible automation through generative AI agent technology.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#security">Security</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Connect With Us</h5>
+                    <div class="d-flex">
+                        <a href="#" class="me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>&copy; 2024 synQrona. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-		<!-- ========================= footer start ========================= -->
-		<footer id="contact" class="footer pt-120">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
-						<div class="footer-widget">
-							<div class="logo">
-								<!--<a href="index.html"> <img src="assets/images/logo/logo.svg" alt="logo"> </a>-->
-								<h1 style="color:MediumVioletRed;">synQrona</h1><p></p>
-							</div>
-							<p class="desc">Talk to your enterprise apps through synQrona and get your work done in minutes.</p>
-							<!--<ul class="social-links">
-								<li><a href="#0"><i class="lni lni-facebook"></i></a></li>
-								<li><a href="#0"><i class="lni lni-linkedin"></i></a></li>
-								<li><a href="#0"><i class="lni lni-instagram"></i></a></li>
-								<li><a href="#0"><i class="lni lni-twitter"></i></a></li>
-							</ul>-->
-						</div>
-					</div>
-					<!--<div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 offset-xl-1">
-						<div class="footer-widget">
-							<h3>About Us</h3>
-							<ul class="links">
-								<li><a href="#0">Home</a></li>
-								<li><a href="#0">About</a></li>
-								<li><a href="#0">Features</a></li>
-								<li><a href="#0">Pricing</a></li>
-								<li><a href="#0">Contact</a></li>
-							</ul>
-						</div>
-					</div>
-					<!--<div class="col-xl-3 col-lg-2 col-md-6 col-sm-6">
-						<div class="footer-widget">
-							<h3>Services</h3>
-							<ul class="links">
-								<li><a href="#0">SaaS Focused</a></li>
-								<li><a href="#0">Awesome Design</a></li>
-								<li><a href="#0">Ready to Use</a></li>
-								<li><a href="#0">Essential Selection</a></li>
-							</ul>
-						</div>
-					</div>-->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="footer-widget">
-							<h3>want to learn more?</h3>
-							<form action="#">
-								<input type="email" placeholder="Email">
-								<button class="main-btn btn-hover">Request Demo</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- ========================= footer end ========================= -->
-
-
-    <!-- ========================= scroll-top ========================= -->
-    <a href="#" class="scroll-top btn-hover">
-      <i class="lni lni-chevron-up"></i>
-    </a>
-
-    <!-- ========================= JS here ========================= -->
-    <script src="assets/js/bootstrap-5.0.0-beta2.min.js"></script>
-    <script src="assets/js/tiny-slider.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/polyfill.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
